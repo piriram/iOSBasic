@@ -6,3 +6,6 @@
 *[정리 깃허브](https://github.com/devxoul/ios-with-swift-in-40-hours/blob/master/SUMMARY.md)<br>
 *[스탠포드 ios 강의](https://www.inflearn.com/course/stanford-ios-%ED%95%9C%EA%B8%80%EC%9E%90%EB%A7%89-%EA%B0%95%EC%9D%98#curriculum)<br>
 *[어썸 깃허브](https://github.com/ClintJang/awesome-swift-korean-lecture)<br>
+
+### ios 개발에 도움되는 링크 모음
+* [이모지 유니코드 확인](https://apps.timwhitlock.info/emoji/tables/unicode)
