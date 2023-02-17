@@ -10,3 +10,4 @@
 * [문자열 블로그 2](https://junstar92.tistory.com/257)
 ### ios 개발에 도움되는 링크 모음
 * [이모지 유니코드 확인](https://apps.timwhitlock.info/emoji/tables/unicode)
+* [safe area](https://wit.nts-corp.com/2019/10/24/5731)
