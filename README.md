@@ -11,3 +11,4 @@
 ### ios 개발에 도움되는 링크 모음
 * [이모지 유니코드 확인](https://apps.timwhitlock.info/emoji/tables/unicode)
 * [safe area](https://wit.nts-corp.com/2019/10/24/5731)
+* [auto layout](https://jegyun97.tistory.com/14)
