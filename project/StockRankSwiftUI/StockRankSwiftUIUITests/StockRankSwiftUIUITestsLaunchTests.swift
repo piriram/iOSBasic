@@ -1,13 +1,13 @@
 //
-//  StockRank_SwiftUIUITestsLaunchTests.swift
-//  StockRank-SwiftUIUITests
+//  StockRankSwiftUIUITestsLaunchTests.swift
+//  StockRankSwiftUIUITests
 //
-//  Created by joonwon lee on 2022/05/21.
+//  Created by ram on 2023/02/20.
 //
 
 import XCTest
 
-class StockRank_SwiftUIUITestsLaunchTests: XCTestCase {
+final class StockRankSwiftUIUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

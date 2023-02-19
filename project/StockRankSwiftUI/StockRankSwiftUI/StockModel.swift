@@ -1,13 +1,14 @@
 //
 //  StockModel.swift
-//  StockRank-SwiftUI
+//  StockRankSwiftUI
 //
-//  Created by joonwon lee on 2022/05/21.
+//  Created by ram on 2023/02/20.
 //
 
 import Foundation
 
-struct StockModel {
+
+struct StockModel:Hashable { //헤셔블은 각 데이터가 구분 가능한지
     let rank: Int
     let imageName: String
     let name: String

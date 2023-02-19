@@ -1,14 +1,14 @@
 //
-//  StockRank_SwiftUITests.swift
-//  StockRank-SwiftUITests
+//  StockRankSwiftUITests.swift
+//  StockRankSwiftUITests
 //
-//  Created by joonwon lee on 2022/05/21.
+//  Created by ram on 2023/02/20.
 //
 
 import XCTest
-@testable import StockRank_SwiftUI
+@testable import StockRankSwiftUI
 
-class StockRank_SwiftUITests: XCTestCase {
+final class StockRankSwiftUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
