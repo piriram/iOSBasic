@@ -17,9 +17,9 @@
 		21729A5129AFCBE200AB60FC /* FramewokData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21729A5029AFCBE200AB60FC /* FramewokData.swift */; };
 		21729A5329AFCC0200AB60FC /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21729A5229AFCC0200AB60FC /* SafariView.swift */; };
 		21729A5529AFCC2F00AB60FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21729A5429AFCC2F00AB60FC /* Assets.xcassets */; };
-		21729A5729AFCC6700AB60FC /* FrameworkDeatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21729A5629AFCC6700AB60FC /* FrameworkDeatailView.swift */; };
 		21729A5929AFCE2A00AB60FC /* FrameworkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21729A5829AFCE2A00AB60FC /* FrameworkListViewModel.swift */; };
 		21729A5B29B0C10C00AB60FC /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21729A5A29B0C10C00AB60FC /* FrameworkDetailViewModel.swift */; };
+		21729A5D29B0CA4800AB60FC /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21729A5C29B0CA4800AB60FC /* FrameworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		21729A5029AFCBE200AB60FC /* FramewokData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramewokData.swift; sourceTree = "<group>"; };
 		21729A5229AFCC0200AB60FC /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		21729A5429AFCC2F00AB60FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/fc-ios-bible-for-beginner-2022-master/Part7_SwiftUI/Ch8_SwiftUI-Modal-이해하기/starter/AppleFramework-SwiftUI/AppleFramework-SwiftUI/Assets.xcassets"; sourceTree = "<group>"; };
-		21729A5629AFCC6700AB60FC /* FrameworkDeatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDeatailView.swift; sourceTree = "<group>"; };
 		21729A5829AFCE2A00AB60FC /* FrameworkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewModel.swift; sourceTree = "<group>"; };
 		21729A5A29B0C10C00AB60FC /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
+		21729A5C29B0CA4800AB60FC /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,15 +106,15 @@
 		21729A2129AFCAC500AB60FC /* swiftUI-Modal */ = {
 			isa = PBXGroup;
 			children = (
-				21729A2229AFCAC500AB60FC /* swiftUI_ModalApp.swift */,
-				21729A4E29AFCBBC00AB60FC /* FrameworkCell.swift */,
+				21729A5429AFCC2F00AB60FC /* Assets.xcassets */,
 				21729A5029AFCBE200AB60FC /* FramewokData.swift */,
-				21729A5229AFCC0200AB60FC /* SafariView.swift */,
+				21729A4E29AFCBBC00AB60FC /* FrameworkCell.swift */,
+				21729A5C29B0CA4800AB60FC /* FrameworkDetailView.swift */,
+				21729A5A29B0C10C00AB60FC /* FrameworkDetailViewModel.swift */,
 				21729A4C29AFCB3A00AB60FC /* FrameworkListView.swift */,
 				21729A5829AFCE2A00AB60FC /* FrameworkListViewModel.swift */,
-				21729A5629AFCC6700AB60FC /* FrameworkDeatailView.swift */,
-				21729A5A29B0C10C00AB60FC /* FrameworkDetailViewModel.swift */,
-				21729A5429AFCC2F00AB60FC /* Assets.xcassets */,
+				21729A5229AFCC0200AB60FC /* SafariView.swift */,
+				21729A2229AFCAC500AB60FC /* swiftUI_ModalApp.swift */,
 				21729A2829AFCAC600AB60FC /* Preview Content */,
 			);
 			path = "swiftUI-Modal";
@@ -275,10 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21729A5D29B0CA4800AB60FC /* FrameworkDetailView.swift in Sources */,
 				21729A2329AFCAC500AB60FC /* swiftUI_ModalApp.swift in Sources */,
 				21729A4D29AFCB3A00AB60FC /* FrameworkListView.swift in Sources */,
 				21729A5929AFCE2A00AB60FC /* FrameworkListViewModel.swift in Sources */,
-				21729A5729AFCC6700AB60FC /* FrameworkDeatailView.swift in Sources */,
 				21729A4F29AFCBBC00AB60FC /* FrameworkCell.swift in Sources */,
 				21729A5129AFCBE200AB60FC /* FramewokData.swift in Sources */,
 				21729A5B29B0C10C00AB60FC /* FrameworkDetailViewModel.swift in Sources */,

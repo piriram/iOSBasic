@@ -45,9 +45,9 @@ struct FrameworkListView: View {
 //            FrameworkDeatailView(framework: $vm.selectedItem)
 //        }
         //바인딩변수를 바꿔준다.
-        .fullScreenCover(isPresented: $vm.isShowingDetail ){
-            FrameworkDeatailView(framework:
-                                    $vm.selectedItem)
+        .sheet(isPresented: $vm.isShowingDetail ){
+            let vm = FrameworkDetailViewModel(framework:vm.selectedItem!)
+            FrameworkDetailView(viewModel: vm)
         }
         
     }
