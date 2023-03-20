@@ -47,7 +47,7 @@ final class NetworkService {
             }
             
             guard let data = data else {
-                completion(.failure(NetworkError.noData))
+                completion(.failure(NetworkError.noData)) //nil인경우
                 return
             }
 
@@ -57,10 +57,10 @@ final class NetworkService {
                 let profile = try decoder.decode(GithubProfile.self, from: data)
                 completion(.success(profile))
             } catch let error as NSError {
-                completion(.failure(NetworkError.decodingError(error)))
+                completion(.failure(NetworkError.decodingError(error)))//디코딩하다가 에러가 생기면
             }
         }
-        task.resume()
+        task.resume()//실행시키려면 반드시 작성
     }
 }
 
