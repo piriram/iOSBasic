@@ -12,3 +12,7 @@
 * [이모지 유니코드 확인](https://apps.timwhitlock.info/emoji/tables/unicode)
 * [safe area](https://wit.nts-corp.com/2019/10/24/5731)
 * [auto layout](https://jegyun97.tistory.com/14)
+
+### 23-1 캡스톤
+
+* [XCode 헤더 주석 저작권 없애기](https://blog.naver.com/rlawnguq12/222852489983)
