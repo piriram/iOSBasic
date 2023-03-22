@@ -32,17 +32,19 @@ struct SearchBar: UIViewRepresentable {
             text = searchText
         }
     }
-
-    func makeCoordinator() -> SearchBar.Coordinator {
+    // Coordinator
+  makeCoordinator() -> SearchBar.Coordinator {
         return Coordinator(text: $text)
     }
-
+    
+    }
+    // UISearchBar를생성하여 반환
     func makeUIView(context: UIViewRepresentableContext<SearchBar>) -> UISearchBar {
         let searchBar = UISearchBar(frame: .zero)
         searchBar.delegate = context.coordinator
         return searchBar
     }
-
+    // 텍스트값을설정
     func updateUIView(_ uiView: UISearchBar, context: UIViewRepresentableContext<SearchBar>) {
         uiView.text = text
     }
