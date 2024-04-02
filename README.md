@@ -17,3 +17,26 @@
 
 * [XCode 헤더 주석 저작권 없애기](https://blog.naver.com/rlawnguq12/222852489983)
 * [검색창1](https://iamcho2.github.io/2021/05/06/customizing-UISearchBar)
+
+## ObjectWillChange
+- 사용 사례
+  - @Published가 아닌 변수의 변화도 체크할 수 있게해줌
+```swift
+class ViewModel: ObservableObject {
+    var score = 0 {
+        willSet(newValue) {
+            if score % 3 == 0 {
+                objectWillChange.send()
+            }
+        }
+    }
+}
+```
+  -  
+- `ObservableObject`를 준수하는 클래스 내부에서 사용가능
+## Publisher
+- 데이터를 생성하고 구독자에게 전달하는 객체
+## Published
+- '@Published`로 선언된 프로퍼티의 값이 변경될 때마다 Subscriber에게 알림을 보냄
+  - 알림을 받은 View는 자동으로 업데이트 됨 
+- 
