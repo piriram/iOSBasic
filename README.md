@@ -35,6 +35,7 @@ class ViewModel: ObservableObject {
   -  
 - `ObservableObject`를 준수하는 클래스 내부에서 사용가능
 ## Publisher
+- 오늘은 테크 얘기를 해봤당~
 - 데이터를 생성하고 구독자에게 전달하는 객체
 ## Published
 - '@Published`로 선언된 프로퍼티의 값이 변경될 때마다 Subscriber에게 알림을 보냄
